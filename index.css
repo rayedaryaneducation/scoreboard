@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: #19244d;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    font-size:40px;
+    margin-bottom: 10px
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.screen {
+    background-color: #0a0001;
+    width: 155px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    
+}
+h1 {
+    font-family: 'timer', serif;
+    color: #f94f6d;
+    margin: 0px;
+    font-size: 100px;
+    padding: 10px 0px;
+    
+    
+    
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    background: transparent;
+    border: 2px solid #8395b3;
+    border-radius: 5px;
+    padding: 10px;
+    color: #8395b3;
+    font-family: 'timer', serif;
+    font-size: 20px;
+    
+    
+}
+@font-face {
+  font-family: 'timer'; /* you choose this name */
+  src: url('/timer.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
